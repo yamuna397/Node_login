@@ -1,0 +1,36 @@
+{
+  "name": "core-inspector-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "nodemon --inspect server.js"
+  },
+  "dependencies": {
+    "@types/mocha": "^8.2.2",
+    "adm-zip": "^0.4.14",
+    "admin-bro": "^2.8.0",
+    "admin-bro-expressjs": "^2.1.1",
+    "admin-bro-mongoose": "^0.5.2",
+    "aws-sdk": "^2.658.0",
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.1",
+    "file-type": "^14.2.0",
+    "fs-extra": "^9.0.0",
+    "mongoose": "^5.9.24",
+    "openseadragon": "^2.4.2",
+    "sharp": "^0.25.2",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2",
+    "quickchart-js": "^1.0.5"
+  }
+}
